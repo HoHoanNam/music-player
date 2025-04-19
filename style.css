@@ -91,6 +91,12 @@ header h2 {
   color: #535353;
   padding: 18px;
   font-size: 18px;
+  cursor: pointer;
+  transition: filter 0.3s ease;
+}
+
+.control .btn:hover {
+  filter: brightness(1.4);
 }
 
 .control .btn.active {
